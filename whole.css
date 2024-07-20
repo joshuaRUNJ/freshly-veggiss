@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:orange;
+    color: black;
+    padding: 14px;
+    position:relative;
+  
+
+}
+
+h1 {
+    margin-left: 70px;
+}
+
+h1,
+ul,
+li {
+    display: inline;
+
+}
+
+ul {
+    margin-left: 37%;
+
+
+}
+
+a {
+    display: inline;
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 9px
+}
+
+a:hover {
+    
+    color: rgb(212, 182, 130);
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    margin-left: -9px;
+    width: 70px;
+    height: 60px;
+    margin-top: -15px;
+    
+
+}
+
+.i {
+    margin-left: 25px;
+    display: inline;
+}
+
+.o {
+
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -12px;
+    width: 50px;
+    height: 50px;
+    display: inline;
+
+}
+.c{
+height: 500px;
+border: 0cap;
+background: url('Fruits-and-Vegetables.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+position: center;
+}
+
+
+body{
+	font-size: 1.7rem;
+	font-family: 'Merriweather Sans', sans-serif;
+	background:white;
+	color: #ececec;
+	padding: 4rem;
+}
+h2{
+    <h2>Our Products</h2>
+        text-align: center;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+        margin-top: 12px;
+}

@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: lightsalmon;
+    color: white;
+    padding: 18px;
+
+
+}
+
+h1,
+ul,
+li {
+    display: inline;
+
+}
+
+h1 {
+    margin-left: 20px;
+
+}
+
+ul {
+    margin-left: 45%;
+    flex-wrap: wrap;
+}
+
+a {
+
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+a:hover {
+
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.o {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: -9px;
+
+
+}
+
+.background {
+    background: url('AdobeStock_314273279.jpeg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.p {
+    text-align: center;
+    font-size: 105px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 450px;
+    display: block;
+
+}
+
+.m {
+    font-style: 23px;
+    color: lightsalmon;
+    text-decoration: none;
+    border: 2px solid lightsalmon;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+    display: inline-block;
+    margin-left: 900px;
+    flex-wrap: wrap;
+}
+
+.m:hover {
+    background-color: white;
+    color: lightskyblue;
+
+}
+
+.z {
+    width: 700px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    height: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+
+.all-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+    color: #2c3e50;
+    text-align: center;
+    width: 240px;
+    height: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
+}
+
+.product .product-title,
+.product .product-price {
+    font-size: 18px;
+}
+
+.product:hover img {
+    scale: 1.1;
+}
+
+.product:hover {
+    box-shadow: 5px 15px 25px grey;
+}
+
+.product img {
+    height: 200px;
+    margin: 1rem;
+    transition: all 0.3s;
+}
+
+.product a:link,
+.product a:visited {
+    color: #ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2c3e50;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.product a:hover {
+    transform: scale(1.1);
+}
+
+.comments {
+    margin-top: 50px;
+    border-radius: 5px;
+    border-color: white;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    height: 80px;
+    background-color: white;
+    width: 160px;
+    padding: 40px;
+    margin-left: 90px;
+    margin-right: 30px;
+    color: green;
+
+
+
+}
+
+
+.comments:hover {
+    box-shadow: 5px 15px 25px grey;
+    transition: all 0.4s;
+    background-color: white;
+    color: green;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.break {
+    display: flexbox;
+
+}
+
+.x {
+    padding: 40px;
+    background:white;
+    height: 140px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.productss {
+    background:white;
+
+}
+
+.q {
+    font-size: 96px;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: sandybrown;
+    color: white;
+    padding: 20px;
+
+}
+
+.fot {
+    border-color: sandybrown;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 240px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 220px;
+    padding: 8pxpx;
+
+}

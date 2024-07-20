@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+h2 {
+	text-align: center;
+	margin-bottom: 5rem;
+	font-size: 4rem;
+}
+
+.all-products {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.product .product-title,
+.product .product-price {
+	font-size: 18px;
+}
+
+.product:hover img {
+	scale: 1.1;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px grey;
+}
+
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product a:link,
+.product a:visited {
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #2c3e50;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.product a:hover {
+	transform: scale(1.1);
+}
+
+nav {
+	background-color: lightsalmon;
+	color: white;
+	padding: 18px;
+	position: sticky;
+
+}
+
+h1,
+ul,
+li {
+	display: inline;
+
+}
+
+h1 {
+	margin-left: 20px;
+
+}
+
+ul {
+	margin-left: 45%;
+	flex-wrap: wrap;
+}
+
+a {
+
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+
+
+}
+
+a:hover {
+
+	color: whitesmoke;
+	cursor: pointer;
+
+}
+
+.o {
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: -9px;
+
+
+}
+.productss {
+    background: linear-gradient(white,lightsalmon,lightskyblue, white);
+
+}
